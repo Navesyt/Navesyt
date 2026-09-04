@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "My Room Planner",
+    "slug": "my-room-planner",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "permissions": ["POST_NOTIFICATIONS"]
+    }
+  }
+}
